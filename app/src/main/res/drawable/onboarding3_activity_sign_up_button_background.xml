@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/onboarding3_activity_sign_up_button_radius"/>
+
+	<solid android:color="#FFFFFF"/>
+</shape>

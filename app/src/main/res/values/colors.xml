@@ -1,0 +1,232 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_accent">#000000</color>
+	<color name="color_primary">#000000</color>
+	<color name="material_bottom_sheet_title">#0000008A</color>
+	<color name="material_bottom_sheet_item">#000000DE</color>
+	<color name="color_hint_text">#D0D1D5</color>
+	<color name="color_click_overlay">#555555</color>
+	<color name="color_primary_dark">#000000</color>
+	
+	<!-- Resources for MobileNumber2Activity -->
+	<color name="mobile_number2_activity_united_states_of_ame_constraint_layout_background_color">#F0F0F0</color>
+	<color name="mobile_number2_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="mobile_number2_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="mobile_number2_activity_mobile_number_comple_constraint_layout_border_color">#A4A4A4</color>
+	<color name="mobile_number2_activity_mobile_number_edit_text_background_color">#00000000</color>
+	<color name="mobile_number2_activity_mobile_number_edit_text_text_color">#BABABA</color>
+	<color name="mobile_number2_activity_rectangle_constraint_layout_background_color">#2E52B2</color>
+	
+	<!-- Resources for MobileNumber3Activity -->
+	<color name="mobile_number3_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="mobile_number3_activity_united_states_of_ame_constraint_layout_background_color">#F0F0F0</color>
+	<color name="mobile_number3_activity_mobile_number_comple_constraint_layout_border_color">#D8D8D8</color>
+	<color name="mobile_number3_activity_edit_text_edit_text_background_color">#00000000</color>
+	<color name="mobile_number3_activity_continue_button_gradient_stop_color_1">#7EF192</color>
+	<color name="mobile_number3_activity_continue_button_gradient_stop_color_2">#2DC897</color>
+	<color name="mobile_number3_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="mobile_number3_activity_rectangle_constraint_layout_background_color">#2E52B2</color>
+	
+	<!-- Resources for MoreAboutYouCopyActivity -->
+	<color name="more_about_you_copy_activity_email_address_constraint_layout_border_color">#D8D8D8</color>
+	<color name="more_about_you_copy_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="more_about_you_copy_activity_continue_button_gradient_stop_color_1">#7EF192</color>
+	<color name="more_about_you_copy_activity_address_constraint_layout_border_color">#D8D8D8</color>
+	<color name="more_about_you_copy_activity_first_and_last_name_constraint_layout_border_color">#D8D8D8</color>
+	<color name="more_about_you_copy_activity_continue_button_gradient_stop_color_2">#2DC897</color>
+	<color name="more_about_you_copy_activity_address_edit_text_background_color">#00000000</color>
+	<color name="more_about_you_copy_activity_johnatan_doe_edit_text_background_color">#00000000</color>
+	<color name="more_about_you_copy_activity_john_doe_com_edit_text_background_color">#00000000</color>
+	<color name="more_about_you_copy_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	
+	<!-- Resources for MoreAboutYouActivity -->
+	<color name="more_about_you_activity_maybe_later_button_text_color">#31D19E</color>
+	<color name="more_about_you_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="more_about_you_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="more_about_you_activity_continue_button_gradient_stop_color_2">#2DC897</color>
+	<color name="more_about_you_activity_continue_button_gradient_stop_color_1">#7EF192</color>
+	<color name="more_about_you_activity_btw_you_look_great_text_view_text_color">#606060</color>
+	
+	<!-- Resources for SuccessfullAddedActivity -->
+	<color name="successfull_added_activity_graphics_check_big_constraint_layout_border_color">#332DC897</color>
+	<color name="successfull_added_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="successfull_added_activity_lorem_ipsum_dollor_stext_view_text_color">#606060</color>
+	<color name="successfull_added_activity_oval_constraint_layout_border_color">#2DC897</color>
+	<color name="successfull_added_activity_oval_copy_constraint_layout_border_color">#802DC897</color>
+	<color name="successfull_added_activity_done_button_gradient_stop_color_2">#2DC897</color>
+	<color name="successfull_added_activity_done_button_gradient_stop_color_1">#7EF192</color>
+	
+	<!-- Resources for GoPremiumChoosingPlanActivity -->
+	<color name="go_premium_choosing_plan_activity_married_constraint_layout_gradient_stop_color_2">#FFA26B</color>
+	<color name="go_premium_choosing_plan_activity_go_premium_button_gradient_stop_color_2">#31D19E</color>
+	<color name="go_premium_choosing_plan_activity_go_premium_button_gradient_stop_color_1">#6DE381</color>
+	<color name="go_premium_choosing_plan_activity_bachelor_constraint_layout_gradient_stop_color_2">#F07590</color>
+	<color name="go_premium_choosing_plan_activity_cance_any_time_in_ap_text_view_text_color">#606060</color>
+	<color name="go_premium_choosing_plan_activity_path_three_button_text_color">#000000</color>
+	<color name="go_premium_choosing_plan_activity_married_with_childre_constraint_layout_gradient_stop_color_1">#E9B0FF</color>
+	<color name="go_premium_choosing_plan_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="go_premium_choosing_plan_activity_path_button_text_color">#000000</color>
+	<color name="go_premium_choosing_plan_activity_bachelor_constraint_layout_gradient_stop_color_1">#FFB382</color>
+	<color name="go_premium_choosing_plan_activity_path_two_button_text_color">#000000</color>
+	<color name="go_premium_choosing_plan_activity_married_constraint_layout_gradient_stop_color_1">#FFD387</color>
+	<color name="go_premium_choosing_plan_activity_married_with_childre_constraint_layout_gradient_stop_color_2">#8A63E5</color>
+	
+	<!-- Resources for MobileNumber1Activity -->
+	<color name="mobile_number1_activity_continue_button_gradient_stop_color_1">#7EF192</color>
+	<color name="mobile_number1_activity_mobile_number_first_constraint_layout_border_color">#D8D8D8</color>
+	<color name="mobile_number1_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="mobile_number1_activity_united_states_of_ame_constraint_layout_background_color">#F0F0F0</color>
+	<color name="mobile_number1_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="mobile_number1_activity_mobile_number_edit_text_background_color">#00000000</color>
+	<color name="mobile_number1_activity_continue_button_gradient_stop_color_2">#2DC897</color>
+	<color name="mobile_number1_activity_rectangle_constraint_layout_background_color">#2E52B2</color>
+	
+	<!-- Resources for LoginPasscodeActivity -->
+	<color name="login_passcode_activity_unlocking_with_passc_text_view_text_color">#606060</color>
+	<color name="login_passcode_activity_slides_edit_text_background_color">#00000000</color>
+	<color name="login_passcode_activity_slides_edit_text_text_color">#000000</color>
+	<color name="login_passcode_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	
+	<!-- Resources for VerificationCodeActivity -->
+	<color name="verification_code_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="verification_code_activity_resend_button_gradient_stop_color_1">#7EF192</color>
+	<color name="verification_code_activity_resend_button_gradient_stop_color_2">#2DC897</color>
+	<color name="verification_code_activity_edit_text_edit_text_background_color">#00000000</color>
+	<color name="verification_code_activity_if_you_don_treceive_text_view_text_color">#606060</color>
+	<color name="verification_code_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="verification_code_activity_edit_text_two_edit_text_background_color">#00000000</color>
+	<color name="verification_code_activity_edit_text_three_edit_text_background_color">#00000000</color>
+	
+	<!-- Resources for OneLastThingActivity -->
+	<color name="one_last_thing_activity_agree_button_gradient_stop_color_2">#2DC897</color>
+	<color name="one_last_thing_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="one_last_thing_activity_lorem_ipsum_dolor_si_text_view_text_color">#606060</color>
+	<color name="one_last_thing_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="one_last_thing_activity_rectangle_constraint_layout_gradient_stop_color_2">#FCFCFF</color>
+	<color name="one_last_thing_activity_rectangle_constraint_layout_gradient_stop_color_1">#76FCFCFF</color>
+	<color name="one_last_thing_activity_agree_button_gradient_stop_color_1">#7EF192</color>
+	<color name="one_last_thing_activity_decline_copy_button_gradient_stop_color_2">#F8798F</color>
+	<color name="one_last_thing_activity_decline_copy_button_gradient_stop_color_1">#EB658D</color>
+	
+	<!-- Resources for GoPremiumPlanChoosedActivity -->
+	<color name="go_premium_plan_choosed_activity_aenean_ultricies_mi_two_text_view_text_color">#606060</color>
+	<color name="go_premium_plan_choosed_activity_aenean_ultricies_mi_text_view_text_color">#606060</color>
+	<color name="go_premium_plan_choosed_activity_fond_constraint_layout_background_color">#FCBABD</color>
+	<color name="go_premium_plan_choosed_activity_questions_read_the_button_text_color">#FFFFFF</color>
+	<color name="go_premium_plan_choosed_activity_constraint_layout_constraint_layout_gradient_stop_color_1">#FFB382</color>
+	<color name="go_premium_plan_choosed_activity_nam_nulla_quam_grav_text_view_text_color">#606060</color>
+	<color name="go_premium_plan_choosed_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="go_premium_plan_choosed_activity_btn_cta_green_button_gradient_stop_color_2">#2DC897</color>
+	<color name="go_premium_plan_choosed_activity_constraint_layout_constraint_layout_gradient_stop_color_2">#F07590</color>
+	<color name="go_premium_plan_choosed_activity_aenean_ultricies_mi_three_text_view_text_color">#606060</color>
+	<color name="go_premium_plan_choosed_activity_btn_cta_green_button_gradient_stop_color_1">#7EF192</color>
+	<color name="go_premium_plan_choosed_activity_graphics_back_arrow_button_text_color">#000000</color>
+	
+	<!-- Resources for Onboarding5Activity -->
+	<color name="onboarding5_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="onboarding5_activity_sign_up_button_gradient_stop_color_1">#7EF192</color>
+	<color name="onboarding5_activity_sign_up_button_gradient_stop_color_2">#2DC897</color>
+	<color name="onboarding5_activity_login_button_background_color">#4666D5</color>
+	<color name="onboarding5_activity_sign_up_copy_button_background_color">#4DFFFFFF</color>
+	
+	<!-- Resources for AddManualAccountActivity -->
+	<color name="add_manual_account_activity_fond_greengrad_str_constraint_layout_gradient_stop_color_1">#FFB1B1</color>
+	<color name="add_manual_account_activity_accounttype_constraint_layout_border_color">#D8D8D8</color>
+	<color name="add_manual_account_activity_add_button_gradient_stop_color_2">#2DC897</color>
+	<color name="add_manual_account_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="add_manual_account_activity_amount_constraint_layout_border_color">#D8D8D8</color>
+	<color name="add_manual_account_activity_current_ballance_edit_text_background_color">#00000000</color>
+	<color name="add_manual_account_activity_dollar_constraint_layout_border_color">#D8D8D8</color>
+	<color name="add_manual_account_activity_account_name_edit_text_background_color">#00000000</color>
+	<color name="add_manual_account_activity_add_button_gradient_stop_color_1">#7EF192</color>
+	<color name="add_manual_account_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="add_manual_account_activity_fond_greengrad_str_constraint_layout_gradient_stop_color_2">#EB6A9F</color>
+	<color name="add_manual_account_activity_account_name_constraint_layout_border_color">#A4A4A4</color>
+	
+	<!-- Resources for Onboarding1Activity -->
+	<color name="onboarding1_activity_constraint_layout_constraint_layout_gradient_stop_color_1">#A1A3FF</color>
+	<color name="onboarding1_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="onboarding1_activity_constraint_layout_constraint_layout_gradient_stop_color_2">#6D63EF</color>
+	
+	<!-- Resources for AddManualAccountCompletedActivity -->
+	<color name="add_manual_account_completed_activity_amount_constraint_layout_border_color">#D8D8D8</color>
+	<color name="add_manual_account_completed_activity_add_account_button_gradient_stop_color_2">#2DC897</color>
+	<color name="add_manual_account_completed_activity_edit_text_edit_text_background_color">#00000000</color>
+	<color name="add_manual_account_completed_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="add_manual_account_completed_activity_account_name_constraint_layout_border_color">#D8D8D8</color>
+	<color name="add_manual_account_completed_activity_fond_greengrad_str_constraint_layout_gradient_stop_color_1">#FFB1B1</color>
+	<color name="add_manual_account_completed_activity_graphics_back_arrow_button_text_color">#000000</color>
+	<color name="add_manual_account_completed_activity_accounttype_constraint_layout_border_color">#D8D8D8</color>
+	<color name="add_manual_account_completed_activity_johnsavings2019_edit_text_background_color">#00000000</color>
+	<color name="add_manual_account_completed_activity_add_account_button_gradient_stop_color_1">#7EF192</color>
+	<color name="add_manual_account_completed_activity_dollar_constraint_layout_border_color">#D8D8D8</color>
+	<color name="add_manual_account_completed_activity_fond_greengrad_str_constraint_layout_gradient_stop_color_2">#EB6A9F</color>
+	
+	<!-- Resources for CreatePasscodeActivity -->
+	<color name="create_passcode_activity_edit_text_two_edit_text_background_color">#00000000</color>
+	<color name="create_passcode_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="create_passcode_activity_fond_huge_radius_fconstraint_layout_gradient_stop_color_1">#7EF192</color>
+	<color name="create_passcode_activity_fond_greengrad_med_constraint_layout_gradient_stop_color_1">#7EF192</color>
+	<color name="create_passcode_activity_fond_huge_radius_fconstraint_layout_gradient_stop_color_2">#2DC897</color>
+	<color name="create_passcode_activity_edit_text_edit_text_background_color">#00000000</color>
+	<color name="create_passcode_activity_fond_greengrad_med_constraint_layout_gradient_stop_color_2">#2DC897</color>
+	
+	<!-- Resources for Onboarding3Activity -->
+	<color name="onboarding3_activity_login_button_border_color">#FFFFFF</color>
+	<color name="onboarding3_activity_constraint_layout_constraint_layout_gradient_stop_color_2">#26A6B5</color>
+	<color name="onboarding3_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="onboarding3_activity_constraint_layout_constraint_layout_gradient_stop_color_1">#96EFA6</color>
+	
+	<!-- Resources for Onboarding2Activity -->
+	<color name="onboarding2_activity_gradient_constraint_layout_gradient_stop_color_2">#F4888B</color>
+	<color name="onboarding2_activity_skip_button_text_color">#FFFFFF</color>
+	<color name="onboarding2_activity_gradient_constraint_layout_gradient_stop_color_1">#00F58B8B</color>
+	<color name="onboarding2_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="onboarding2_activity_constraint_layout_constraint_layout_gradient_stop_color_2">#F07590</color>
+	<color name="onboarding2_activity_next_button_text_color">#000000</color>
+	<color name="onboarding2_activity_constraint_layout_constraint_layout_gradient_stop_color_1">#FFB382</color>
+	<color name="onboarding2_activity_gradient_constraint_layout_gradient_stop_color_3">#F4868D</color>
+	
+	<!-- Resources for NoAccountActivity -->
+	<color name="no_account_activity_constraint_layout_two_constraint_layout_background_color">#ECEEF9</color>
+	<color name="no_account_activity_oval_copy5_constraint_layout_background_color">#8A8A8A</color>
+	<color name="no_account_activity_oval_copy3_constraint_layout_gradient_stop_color_2">#2DC897</color>
+	<color name="no_account_activity_create_account_constraint_layout_gradient_stop_color_1">#7EF192</color>
+	<color name="no_account_activity_create_account_constraint_layout_gradient_stop_color_2">#2DC897</color>
+	<color name="no_account_activity_reports_text_view_text_color">#C6C6C6</color>
+	<color name="no_account_activity_oval_copy5_two_constraint_layout_background_color">#8A8A8A</color>
+	<color name="no_account_activity_dashboard_text_view_text_color">#C6C6C6</color>
+	<color name="no_account_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="no_account_activity_my_wallet007_text_view_text_color">#606060</color>
+	<color name="no_account_activity_accounts_text_view_text_color">#31D19E</color>
+	<color name="no_account_activity_constraint_layout_four_constraint_layout_background_color">#ECEEF9</color>
+	<color name="no_account_activity_checkings2019_text_view_text_color">#31D19E</color>
+	<color name="no_account_activity_budget_text_view_text_color">#C6C6C6</color>
+	<color name="no_account_activity_oval_copy3_constraint_layout_gradient_stop_color_1">#7EF192</color>
+	<color name="no_account_activity_oval_constraint_layout_background_color">#31D19E</color>
+	<color name="no_account_activity_rectangle_copy6_constraint_layout_background_color">#E9E8F7</color>
+	<color name="no_account_activity_savings2019_text_view_text_color">#606060</color>
+	<color name="no_account_activity_shape_constraint_layout_background_color">#E9E8F7</color>
+	<color name="no_account_activity_constraint_layout_three_constraint_layout_background_color">#ECEEF9</color>
+	
+	<!-- Resources for Onboarding4Activity -->
+	<color name="onboarding4_activity_get_started_button_gradient_stop_color_1">#7EF192</color>
+	<color name="onboarding4_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="onboarding4_activity_get_started_button_gradient_stop_color_2">#2DC897</color>
+	
+	<!-- Resources for Onboarding6Activity -->
+	<color name="onboarding6_activity_get_started_button_gradient_stop_color_2">#2DC897</color>
+	<color name="onboarding6_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="onboarding6_activity_get_started_button_gradient_stop_color_1">#7EF192</color>
+	<color name="onboarding6_activity_logo_constraint_layout_background_color">#66000000</color>
+	
+	<!-- Resources for AddAccountActivity -->
+	<color name="add_account_activity_manual_account_constraint_layout_gradient_stop_color_2">#EB6A9F</color>
+	<color name="add_account_activity_continue_button_gradient_stop_color_2">#2DC897</color>
+	<color name="add_account_activity_constraint_layout_constraint_layout_background_color">#FCFCFF</color>
+	<color name="add_account_activity_add_abank_account_constraint_layout_gradient_stop_color_2">#6D63EF</color>
+	<color name="add_account_activity_add_abank_account_constraint_layout_gradient_stop_color_1">#A1A3FF</color>
+	<color name="add_account_activity_continue_button_gradient_stop_color_1">#7EF192</color>
+	<color name="add_account_activity_manual_account_constraint_layout_gradient_stop_color_1">#FBADB4</color>
+</resources>

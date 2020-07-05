@@ -1,0 +1,315 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/constraint_layout_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/add_account_activity_manual_account_constraint_layout_background">
+
+	<View
+		android:id="@+id/fond_greengrad_str_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/add_manual_account_activity_fond_greengrad_str_constraint_layout_height"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/header_constraint_layout"
+		android:layout_width="@dimen/add_manual_account_activity_header_constraint_layout_width"
+		android:layout_height="@dimen/add_manual_account_activity_header_constraint_layout_height"
+		android:layout_marginStart="@dimen/add_manual_account_activity_header_constraint_layout_margin_start"
+		android:layout_marginTop="@dimen/add_manual_account_activity_header_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="19dp"
+		tools:layout_editor_absoluteY="52dp">
+	
+		<TextView
+			android:id="@+id/add_manual_account_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/font_karla_bold"
+			android:gravity="center"
+			android:text="@string/add_manual_account_activity_add_manual_account_text_view_text"
+			android:textColor="#FFFFFF"
+			android:textSize="@dimen/add_manual_account_activity_add_manual_account_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="89dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<ImageButton
+			android:id="@+id/graphics_back_arrow_button"
+			android:layout_width="@dimen/add_manual_account_activity_graphics_back_arrow_button_width"
+			android:layout_height="@dimen/add_manual_account_activity_graphics_back_arrow_button_height"
+			android:layout_marginTop="@dimen/add_manual_account_activity_graphics_back_arrow_button_margin_top"
+			android:background="?attr/selectableItemBackground"
+			android:src="@drawable/graphics_back_arrow_white"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="1dp"/>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/content_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_marginTop="108dp"
+		android:background="#FFFFFF"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout">
+
+		<Button
+			android:id="@+id/add_button"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/add_manual_account_activity_add_button_height"
+			android:layout_marginStart="@dimen/add_manual_account_activity_add_button_margin_start"
+			android:layout_marginTop="@dimen/add_manual_account_activity_add_button_margin_top"
+			android:layout_marginEnd="@dimen/add_manual_account_activity_add_button_margin_end"
+			android:alpha="0.5"
+			android:background="@drawable/button_bg"
+			android:fontFamily="@font/font_karla_bold"
+			android:gravity="center"
+			android:text="@string/add_manual_account_activity_add_button_text"
+			android:textColor="#1C1C1C"
+			android:textSize="@dimen/add_manual_account_activity_add_button_text_size"
+			app:layout_constraintHorizontal_weight="0.89"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/dollar_constraint_layout"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="310dp" />
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/amount_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/add_manual_account_activity_amount_constraint_layout_height"
+			android:layout_marginStart="@dimen/add_manual_account_activity_amount_constraint_layout_margin_start"
+			android:layout_marginTop="@dimen/add_manual_account_activity_amount_constraint_layout_margin_top"
+			android:layout_marginEnd="@dimen/add_manual_account_activity_amount_constraint_layout_margin_end"
+			android:background="@drawable/add_manual_account_activity_amount_constraint_layout_background"
+			app:layout_constraintHorizontal_weight="0.89"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/account_name_constraint_layout"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="174dp">
+
+			<EditText
+				android:id="@+id/current_ballance_edit_text"
+				android:layout_width="@dimen/add_manual_account_activity_current_ballance_edit_text_width"
+				android:layout_height="@dimen/add_manual_account_activity_current_ballance_edit_text_height"
+				android:layout_marginStart="@dimen/add_manual_account_activity_current_ballance_edit_text_margin_start"
+				android:layout_marginTop="@dimen/add_manual_account_activity_current_ballance_edit_text_margin_top"
+				android:background="@color/add_manual_account_activity_current_ballance_edit_text_background_color"
+				android:fontFamily="@font/font_karla_regular"
+				android:gravity="start|center_vertical"
+				android:hint="@string/add_manual_account_activity_current_ballance_edit_text_hint"
+				android:inputType="text"
+				android:maxLines="1"
+				android:textColor="#8A8A8A"
+				android:textColorHint="@color/color_hint_text"
+				android:textSize="@dimen/add_manual_account_activity_current_ballance_edit_text_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="12dp"
+				tools:layout_editor_absoluteY="17dp" />
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/dollar_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/add_manual_account_activity_dollar_constraint_layout_height"
+			android:layout_marginStart="@dimen/add_manual_account_activity_dollar_constraint_layout_margin_start"
+			android:layout_marginTop="@dimen/add_manual_account_activity_dollar_constraint_layout_margin_top"
+			android:layout_marginEnd="@dimen/add_manual_account_activity_dollar_constraint_layout_margin_end"
+			android:background="@drawable/add_manual_account_activity_dollar_constraint_layout_background"
+			app:layout_constraintHorizontal_weight="0.89"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/amount_constraint_layout"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="232dp">
+
+			<TextView
+				android:id="@+id/currency_text_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/add_manual_account_activity_currency_text_view_margin_start"
+				android:layout_marginTop="@dimen/add_manual_account_activity_currency_text_view_margin_top"
+				android:fontFamily="@font/font_karla_regular"
+				android:gravity="start"
+				android:text="@string/add_manual_account_activity_currency_text_view_text"
+				android:textColor="#8A8A8A"
+				android:textSize="@dimen/add_manual_account_activity_currency_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="16dp"
+				tools:layout_editor_absoluteY="8dp" />
+
+			<TextView
+				android:id="@+id/united_states_dollar_text_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/add_manual_account_activity_united_states_dollar_text_view_margin_start"
+				android:fontFamily="@font/font_karla_regular"
+				android:gravity="start"
+				android:text="@string/add_manual_account_activity_united_states_dollar_text_view_text"
+				android:textColor="#1C1C1C"
+				android:textSize="@dimen/add_manual_account_activity_united_states_dollar_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/currency_text_view"
+				tools:layout_editor_absoluteX="16dp"
+				tools:layout_editor_absoluteY="21dp" />
+
+			<ImageView
+				android:id="@+id/graphics_chevron_dow_image_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="@dimen/add_manual_account_activity_graphics_chevron_dow_image_view_margin_end"
+				android:scaleType="center"
+				android:src="@drawable/graphics_chevron_down"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="311dp"
+				tools:layout_editor_absoluteY="20dp" />
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/account_name_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/add_manual_account_activity_account_name_constraint_layout_height"
+			android:layout_marginStart="@dimen/add_manual_account_activity_account_name_constraint_layout_margin_start"
+			android:layout_marginTop="@dimen/add_manual_account_activity_account_name_constraint_layout_margin_top"
+			android:layout_marginEnd="@dimen/add_manual_account_activity_account_name_constraint_layout_margin_end"
+			android:background="@drawable/add_manual_account_activity_account_name_constraint_layout_background"
+			app:layout_constraintHorizontal_weight="0.89"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/accounttype_constraint_layout"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="116dp">
+
+			<EditText
+				android:id="@+id/account_name_edit_text"
+				android:layout_width="@dimen/add_manual_account_activity_account_name_edit_text_width"
+				android:layout_height="@dimen/add_manual_account_activity_account_name_edit_text_height"
+				android:layout_marginStart="@dimen/add_manual_account_activity_account_name_edit_text_margin_start"
+				android:layout_marginTop="@dimen/add_manual_account_activity_account_name_edit_text_margin_top"
+				android:background="@color/add_manual_account_activity_account_name_edit_text_background_color"
+				android:fontFamily="@font/font_karla_regular"
+				android:gravity="start|center_vertical"
+				android:hint="@string/add_manual_account_activity_account_name_edit_text_hint"
+				android:inputType="text"
+				android:maxLines="1"
+				android:textColor="#8A8A8A"
+				android:textColorHint="@color/color_hint_text"
+				android:textSize="@dimen/add_manual_account_activity_account_name_edit_text_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="12dp"
+				tools:layout_editor_absoluteY="17dp" />
+
+			<ImageView
+				android:id="@+id/line2_image_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/add_manual_account_activity_line2_image_view_margin_start"
+				android:scaleType="center"
+				android:src="@drawable/line_2_2"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="12dp"
+				tools:layout_editor_absoluteY="15dp" />
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/accounttype_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/add_manual_account_activity_accounttype_constraint_layout_height"
+			android:layout_marginStart="@dimen/add_manual_account_activity_accounttype_constraint_layout_margin_start"
+			android:layout_marginTop="@dimen/add_manual_account_activity_accounttype_constraint_layout_margin_top"
+			android:layout_marginEnd="@dimen/add_manual_account_activity_accounttype_constraint_layout_margin_end"
+			android:background="@drawable/add_manual_account_activity_accounttype_constraint_layout_background"
+			app:layout_constraintHorizontal_weight="0.89"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/details_text_view"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="58dp">
+
+			<TextView
+				android:id="@+id/savings_text_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/add_manual_account_activity_savings_text_view_margin_start"
+				android:layout_marginTop="@dimen/add_manual_account_activity_savings_text_view_margin_top"
+				android:fontFamily="@font/font_karla_regular"
+				android:gravity="start"
+				android:text="@string/add_manual_account_activity_savings_text_view_text"
+				android:textColor="#1C1C1C"
+				android:textSize="@dimen/add_manual_account_activity_savings_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/select_an_account_ty_text_view"
+				tools:layout_editor_absoluteX="12dp"
+				tools:layout_editor_absoluteY="22dp" />
+
+			<TextView
+				android:id="@+id/select_an_account_ty_text_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/add_manual_account_activity_select_an_account_ty_text_view_margin_start"
+				android:layout_marginTop="@dimen/add_manual_account_activity_select_an_account_ty_text_view_margin_top"
+				android:fontFamily="@font/font_karla_regular"
+				android:gravity="start"
+				android:text="@string/add_manual_account_activity_select_an_account_ty_text_view_text"
+				android:textColor="#8A8A8A"
+				android:textSize="@dimen/add_manual_account_activity_select_an_account_ty_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="12dp"
+				tools:layout_editor_absoluteY="7dp" />
+
+			<ImageView
+				android:id="@+id/graphics_chevron_dow_two_image_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="@dimen/add_manual_account_activity_graphics_chevron_dow_two_image_view_margin_end"
+				android:scaleType="center"
+				android:src="@drawable/graphics_chevron_down"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="312dp"
+				tools:layout_editor_absoluteY="20dp" />
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+		<TextView
+			android:id="@+id/details_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="@dimen/add_manual_account_activity_details_text_view_margin_start"
+			android:layout_marginTop="@dimen/add_manual_account_activity_details_text_view_margin_top"
+			android:fontFamily="@font/font_karla_bold"
+			android:gravity="start"
+			android:text="@string/add_manual_account_activity_details_text_view_text"
+			android:textColor="#8A8A8A"
+			android:textSize="@dimen/add_manual_account_activity_details_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="20dp" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

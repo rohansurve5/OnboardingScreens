@@ -1,0 +1,126 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/constraint_layout_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/login_passcode_activity_constraint_layout_constraint_layout_background_color">
+
+
+	<EditText
+
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/login_passcode_activity_slides_edit_text_height"
+		android:layout_marginTop="40dp"
+		android:background="@color/login_passcode_activity_slides_edit_text_background_color"
+		android:gravity="start|center_vertical"
+		android:inputType="text"
+		android:maxLines="1"
+		android:text="5"
+		android:textColor="@color/login_passcode_activity_slides_edit_text_text_color"
+		android:textSize="@dimen/login_passcode_activity_slides_edit_text_text_size"
+		app:layout_constraintHorizontal_bias="0.594"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/budget_planner_text_view" />
+
+	<EditText
+
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/login_passcode_activity_slides_edit_text_height"
+		android:layout_marginTop="40dp"
+		android:background="@color/login_passcode_activity_slides_edit_text_background_color"
+		android:gravity="start|center_vertical"
+		android:inputType="text"
+		android:maxLines="1"
+		android:text="5"
+		android:textColor="@color/login_passcode_activity_slides_edit_text_text_color"
+		android:textSize="@dimen/login_passcode_activity_slides_edit_text_text_size"
+		app:layout_constraintHorizontal_bias="0.487"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/budget_planner_text_view" />
+
+	<EditText
+		android:id="@+id/slides_edit_text"
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/login_passcode_activity_slides_edit_text_height"
+		android:layout_marginTop="40dp"
+		android:background="@color/login_passcode_activity_slides_edit_text_background_color"
+		android:gravity="start|center_vertical"
+		android:inputType="text"
+		android:maxLines="1"
+		android:text="5"
+		android:textColor="@color/login_passcode_activity_slides_edit_text_text_color"
+		android:textSize="@dimen/login_passcode_activity_slides_edit_text_text_size"
+		app:layout_constraintHorizontal_bias="0.539"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/budget_planner_text_view" />
+
+	<EditText
+
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/login_passcode_activity_slides_edit_text_height"
+		android:layout_marginTop="40dp"
+		android:background="@color/login_passcode_activity_slides_edit_text_background_color"
+		android:gravity="start|center_vertical"
+		android:inputType="text"
+		android:maxLines="1"
+		android:text="5"
+		android:textColor="@color/login_passcode_activity_slides_edit_text_text_color"
+		android:textSize="@dimen/login_passcode_activity_slides_edit_text_text_size"
+		app:layout_constraintHorizontal_bias="0.423"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/budget_planner_text_view" />
+
+	<TextView
+		android:id="@+id/use_your_fingerprint_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/login_passcode_activity_use_your_fingerprint_text_view_margin_top"
+		android:fontFamily="@font/font_karla_regular"
+		android:gravity="center"
+		android:text="@string/login_passcode_activity_use_your_fingerprint_text_view_text"
+		android:textColor="#1C1C1C"
+		android:textSize="@dimen/login_passcode_activity_use_your_fingerprint_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/unlocking_with_passc_text_view"
+		tools:layout_editor_absoluteX="123dp"
+		tools:layout_editor_absoluteY="287dp"/>
+
+	<TextView
+		android:id="@+id/unlocking_with_passc_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/login_passcode_activity_unlocking_with_passc_text_view_margin_top"
+		android:fontFamily="@font/font_karla_regular"
+		android:gravity="center"
+		android:text="@string/login_passcode_activity_unlocking_with_passc_text_view_text"
+		android:textColor="@color/login_passcode_activity_unlocking_with_passc_text_view_text_color"
+		android:textSize="@dimen/login_passcode_activity_unlocking_with_passc_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/slides_edit_text"
+		tools:layout_editor_absoluteX="107dp"
+		tools:layout_editor_absoluteY="259dp"/>
+
+	<TextView
+		android:id="@+id/budget_planner_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/login_passcode_activity_budget_planner_text_view_margin_top"
+		android:fontFamily="@font/font_karla_bold"
+		android:gravity="center"
+		android:text="@string/login_passcode_activity_budget_planner_text_view_text"
+		android:textColor="#1C1C1C"
+		android:textSize="@dimen/login_passcode_activity_budget_planner_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="107dp"
+		tools:layout_editor_absoluteY="155dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

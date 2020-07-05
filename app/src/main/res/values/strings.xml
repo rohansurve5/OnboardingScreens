@@ -1,0 +1,306 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">OnboardingScreen</string>
+	
+	<!-- Resources for AddManualAccountCompletedActivity -->
+	<string name="add_manual_account_completed_activity_add_account_button_text">Add account</string>
+	<string name="add_manual_account_completed_activity_johnsavings2019_edit_text_hint">JohnSavings2019</string>
+	<string name="add_manual_account_completed_activity_currency_text_view_hint">Currency</string>
+	<string name="add_manual_account_completed_activity_current_ballance_text_view_hint">Current ballance</string>
+	<string name="add_manual_account_completed_activity_currency_text_view_text">Currency</string>
+	<string name="add_manual_account_completed_activity_account_name_text_view_hint">Account name</string>
+	<string name="add_manual_account_completed_activity_current_ballance_text_view_text">Current ballance</string>
+	<string name="add_manual_account_completed_activity_savings_text_view_hint">Savings</string>
+	<string name="add_manual_account_completed_activity_add_manual_account_text_view_text">Add manual account</string>
+	<string name="add_manual_account_completed_activity_usd_united_states_text_view_hint">$USD - United States Dollar</string>
+	<string name="add_manual_account_completed_activity_details_text_view_text">Details</string>
+	<string name="add_manual_account_completed_activity_account_name_text_view_text">Account name</string>
+	<string name="add_manual_account_completed_activity_details_text_view_hint">Details</string>
+	<string name="add_manual_account_completed_activity_edit_text_edit_text_hint">$1,000.00</string>
+	<string name="add_manual_account_completed_activity_usd_united_states_text_view_text">$USD - United States Dollar</string>
+	<string name="add_manual_account_completed_activity_add_account_button_hint">Add account</string>
+	<string name="add_manual_account_completed_activity_add_manual_account_text_view_hint">Add manual account</string>
+	<string name="add_manual_account_completed_activity_select_an_account_ty_text_view_text">Select an account type</string>
+	<string name="add_manual_account_completed_activity_savings_text_view_text">Savings</string>
+	<string name="add_manual_account_completed_activity_select_an_account_ty_text_view_hint">Select an account type</string>
+	
+	<!-- Resources for MobileNumber3Activity -->
+	<string name="mobile_number3_activity_let_sget_started_text_view_hint">Let\'s get started</string>
+	<string name="mobile_number3_activity_continue_button_text">Continue</string>
+	<string name="mobile_number3_activity_continue_button_hint">Continue</string>
+	<string name="mobile_number3_activity_what_is_your_mobile_text_view_hint">What is your mobile number?</string>
+	<string name="mobile_number3_activity_what_is_your_mobile_text_view_text">What is your mobile number?</string>
+	<string name="mobile_number3_activity_mobile_number_text_view_text">Mobile number</string>
+	<string name="mobile_number3_activity_edit_text_edit_text_hint">+1 777 8521 001</string>
+	<string name="mobile_number3_activity_let_sget_started_text_view_text">Let\'s get started</string>
+	<string name="mobile_number3_activity_mobile_number_text_view_hint">Mobile number</string>
+	
+	<!-- Resources for Onboarding3Activity -->
+	<string name="onboarding3_activity_login_button_hint">Login</string>
+	<string name="onboarding3_activity_take_control_of_your_text_view_text">Take control of your money by tracking\nyour expenses, adding goals</string>
+	<string name="onboarding3_activity_light_and_dark_theme_text_view_hint">Light and Dark theme</string>
+	<string name="onboarding3_activity_sign_up_button_text">Sign up</string>
+	<string name="onboarding3_activity_light_and_dark_theme_text_view_text">Light and Dark theme</string>
+	<string name="onboarding3_activity_login_button_text">Login</string>
+	<string name="onboarding3_activity_sign_up_button_hint">Sign up</string>
+	<string name="onboarding3_activity_take_control_of_your_text_view_hint">Take control of your money by tracking\nyour expenses, adding goals</string>
+	
+	<!-- Resources for Onboarding2Activity -->
+	<string name="onboarding2_activity_skip_button_text">Skip</string>
+	<string name="onboarding2_activity_take_control_of_your_text_view_text">Take control of your money by tracking\nyour expenses, adding goals</string>
+	<string name="onboarding2_activity_welcome_to_budget_pl_text_view_text">Welcome to Budget Planner</string>
+	<string name="onboarding2_activity_skip_button_hint">Skip</string>
+	<string name="onboarding2_activity_take_control_of_your_text_view_hint">Take control of your money by tracking\nyour expenses, adding goals</string>
+	<string name="onboarding2_activity_welcome_to_budget_pl_text_view_hint">Welcome to Budget Planner</string>
+	
+	<!-- Resources for AddManualAccountActivity -->
+	<string name="add_manual_account_activity_add_button_text">Add account</string>
+	<string name="add_manual_account_activity_select_an_account_ty_text_view_hint">Select an account type</string>
+	<string name="add_manual_account_activity_currency_text_view_text">Currency</string>
+	<string name="add_manual_account_activity_add_manual_account_text_view_hint">Add manual account</string>
+	<string name="add_manual_account_activity_details_text_view_hint">Details</string>
+	<string name="add_manual_account_activity_united_states_dollar_text_view_text">United States Dollar</string>
+	<string name="add_manual_account_activity_savings_text_view_text">Savings</string>
+	<string name="add_manual_account_activity_account_name_edit_text_hint">Account name</string>
+	<string name="add_manual_account_activity_savings_text_view_hint">Savings</string>
+	<string name="add_manual_account_activity_select_an_account_ty_text_view_text">Select an account type</string>
+	<string name="add_manual_account_activity_united_states_dollar_text_view_hint">United States Dollar</string>
+	<string name="add_manual_account_activity_current_ballance_edit_text_hint">Current ballance</string>
+	<string name="add_manual_account_activity_add_manual_account_text_view_text">Add manual account</string>
+	<string name="add_manual_account_activity_add_button_hint">Add account</string>
+	<string name="add_manual_account_activity_currency_text_view_hint">Currency</string>
+	<string name="add_manual_account_activity_details_text_view_text">Details</string>
+	
+	<!-- Resources for MoreAboutYouCopyActivity -->
+	<string name="more_about_you_copy_activity_john_doe_com_edit_text_hint">john@doe.com</string>
+	<string name="more_about_you_copy_activity_first_and_last_name_text_view_text">First and last name</string>
+	<string name="more_about_you_copy_activity_continue_button_text">Get started</string>
+	<string name="more_about_you_copy_activity_email_address_text_view_text">Email address</string>
+	<string name="more_about_you_copy_activity_address_edit_text_hint">Address</string>
+	<string name="more_about_you_copy_activity_email_address_text_view_hint">Email address</string>
+	<string name="more_about_you_copy_activity_for_delivery_updates_text_view_text">For delivery updates</string>
+	<string name="more_about_you_copy_activity_for_delivery_updates_text_view_hint">For delivery updates</string>
+	<string name="more_about_you_copy_activity_johnatan_doe_edit_text_hint">Johnatan Doe</string>
+	<string name="more_about_you_copy_activity_more_about_you_text_view_text">More about you</string>
+	<string name="more_about_you_copy_activity_first_and_last_name_text_view_hint">First and last name</string>
+	<string name="more_about_you_copy_activity_more_about_you_text_view_hint">More about you</string>
+	<string name="more_about_you_copy_activity_continue_button_hint">Get started</string>
+	
+	<!-- Resources for VerificationCodeActivity -->
+	<string name="verification_code_activity_resend_button_hint">Resend</string>
+	<string name="verification_code_activity_edit_text_three_edit_text_hint">7</string>
+	<string name="verification_code_activity_verification_code_text_view_text">Verification code</string>
+	<string name="verification_code_activity_if_you_don_treceive_text_view_hint">If you don’t receive the code in 30 seconds\ntap bellow to resend it</string>
+	<string name="verification_code_activity_verification_code_text_view_hint">Verification code</string>
+	<string name="verification_code_activity_if_you_don_treceive_text_view_text">If you don’t receive the code in 30 seconds\ntap bellow to resend it</string>
+	<string name="verification_code_activity_edit_text_edit_text_hint">5</string>
+	<string name="verification_code_activity_resend_button_text">Resend</string>
+	<string name="verification_code_activity_please_enter_the4_dtext_view_text">Please enter the 4-digit code sent to you\nat 1 777 8521 001</string>
+	<string name="verification_code_activity_edit_text_two_edit_text_hint">3</string>
+	<string name="verification_code_activity_please_enter_the4_dtext_view_hint">Please enter the 4-digit code sent to you\nat 1 777 8521 001</string>
+	
+	<!-- Resources for SuccessfullAddedActivity -->
+	<string name="successfull_added_activity_done_button_text">Done</string>
+	<string name="successfull_added_activity_lorem_ipsum_dollor_stext_view_hint">Lorem ipsum dollor sit ament pallentesque\nadeipiscing elit enim minim ven\nultricies eget, tempor sit amet, ante.</string>
+	<string name="successfull_added_activity_your_account_has_bee_text_view_hint">Your account has been\nsuccessfully added!</string>
+	<string name="successfull_added_activity_your_account_has_bee_text_view_text">Your account has been\nsuccessfully added!</string>
+	<string name="successfull_added_activity_done_button_hint">Done</string>
+	<string name="successfull_added_activity_lorem_ipsum_dollor_stext_view_text">Lorem ipsum dollor sit ament pallentesque\nadeipiscing elit enim minim ven\nultricies eget, tempor sit amet, ante.</string>
+	
+	<!-- Resources for CreatePasscodeActivity -->
+	<string name="create_passcode_activity_create_passcode_text_view_hint">Create passcode</string>
+	<string name="create_passcode_activity_create_passcode_text_view_text">Create passcode</string>
+	<string name="create_passcode_activity_enter_your_otp_code_text_view_text">Enter your OTP code here. Used for logging in.</string>
+	<string name="create_passcode_activity_enter_your_otp_code_text_view_hint">Enter your OTP code here. Used for logging in.</string>
+	<string name="create_passcode_activity_edit_text_edit_text_hint">3</string>
+	<string name="create_passcode_activity_edit_text_two_edit_text_hint">8</string>
+	
+	<!-- Resources for NoAccountActivity -->
+	<string name="no_account_activity_accounts_text_view_hint">Accounts</string>
+	<string name="no_account_activity_reports_text_view_hint">Reports</string>
+	<string name="no_account_activity_dashboard_text_view_text">Dashboard</string>
+	<string name="no_account_activity_dashboard_text_view_hint">Dashboard</string>
+	<string name="no_account_activity_you_don_thave_set_atext_view_hint">You don’t have set any account.\nCreate one in seconds.</string>
+	<string name="no_account_activity_my_wallet007_text_view_hint">My Wallet 007</string>
+	<string name="no_account_activity_budget_text_view_hint">Budget</string>
+	<string name="no_account_activity_checkings2019_text_view_hint">Checkings 2019</string>
+	<string name="no_account_activity_checkings2019_text_view_text">Checkings 2019</string>
+	<string name="no_account_activity_accounts_two_text_view_hint">Accounts</string>
+	<string name="no_account_activity_budget_text_view_text">Budget</string>
+	<string name="no_account_activity_add_account_text_view_text">Add account</string>
+	<string name="no_account_activity_you_don_thave_set_atext_view_text">You don’t have set any account.\nCreate one in seconds.</string>
+	<string name="no_account_activity_my_wallet007_text_view_text">My Wallet 007</string>
+	<string name="no_account_activity_savings2019_text_view_hint">Savings 2019</string>
+	<string name="no_account_activity_accounts_text_view_text">Accounts</string>
+	<string name="no_account_activity_add_account_text_view_hint">Add account</string>
+	<string name="no_account_activity_reports_text_view_text">Reports</string>
+	<string name="no_account_activity_accounts_two_text_view_text">Accounts</string>
+	<string name="no_account_activity_savings2019_text_view_text">Savings 2019</string>
+	
+	<!-- Resources for GoPremiumPlanChoosedActivity -->
+	<string name="go_premium_plan_choosed_activity_monthly_text_view_text">monthly</string>
+	<string name="go_premium_plan_choosed_activity_aenean_ultricies_mi_three_text_view_hint">Aenean ultricies mi vitae est. Mauris placerat\neleifend leo.</string>
+	<string name="go_premium_plan_choosed_activity_bachelor_plan_text_view_hint">Bachelor Plan</string>
+	<string name="go_premium_plan_choosed_activity_nam_nulla_quam_grav_text_view_text">Nam nulla quam, gravida non, commodo\na, sodales sit amet, nisi quam lectus, facilisis.</string>
+	<string name="go_premium_plan_choosed_activity_mo_text_view_text">$6.99/mo</string>
+	<string name="go_premium_plan_choosed_activity_monthly_text_view_hint">monthly</string>
+	<string name="go_premium_plan_choosed_activity_pellentesque_habitan_three_text_view_hint">Pellentesque habitant morbi</string>
+	<string name="go_premium_plan_choosed_activity_pellentesque_habitan_text_view_hint">Pellentesque habitant morbi</string>
+	<string name="go_premium_plan_choosed_activity_questions_read_the_button_hint">Questions? Read the FAQ</string>
+	<string name="go_premium_plan_choosed_activity_btn_cta_green_button_hint">Get premium</string>
+	<string name="go_premium_plan_choosed_activity_mo_text_view_hint">$6.99/mo</string>
+	<string name="go_premium_plan_choosed_activity_start_your30_day_fr_text_view_text">Start your 30 day free tiral. Reduced from\na limited time from 6.99/month</string>
+	<string name="go_premium_plan_choosed_activity_aenean_ultricies_mi_three_text_view_text">Aenean ultricies mi vitae est. Mauris placerat\neleifend leo.</string>
+	<string name="go_premium_plan_choosed_activity_start_your30_day_fr_text_view_hint">Start your 30 day free tiral. Reduced from\na limited time from 6.99/month</string>
+	<string name="go_premium_plan_choosed_activity_aenean_ultricies_mi_text_view_text">Aenean ultricies mi vitae est. Mauris placerat\neleifend leo.</string>
+	<string name="go_premium_plan_choosed_activity_consectetuer_adipisc_text_view_text">Consectetuer adipiscing</string>
+	<string name="go_premium_plan_choosed_activity_pellentesque_habitan_two_text_view_hint">Pellentesque habitant morbi</string>
+	<string name="go_premium_plan_choosed_activity_aenean_ultricies_mi_text_view_hint">Aenean ultricies mi vitae est. Mauris placerat\neleifend leo.</string>
+	<string name="go_premium_plan_choosed_activity_pellentesque_habitan_three_text_view_text">Pellentesque habitant morbi</string>
+	<string name="go_premium_plan_choosed_activity_yr_text_view_hint">$4.55/yr</string>
+	<string name="go_premium_plan_choosed_activity_nam_nulla_quam_grav_text_view_hint">Nam nulla quam, gravida non, commodo\na, sodales sit amet, nisi quam lectus, facilisis.</string>
+	<string name="go_premium_plan_choosed_activity_pellentesque_habitan_two_text_view_text">Pellentesque habitant morbi</string>
+	<string name="go_premium_plan_choosed_activity_aenean_ultricies_mi_two_text_view_hint">Aenean ultricies mi vitae est. Mauris placerat\neleifend leo.</string>
+	<string name="go_premium_plan_choosed_activity_annual_text_view_text">annual</string>
+	<string name="go_premium_plan_choosed_activity_aenean_ultricies_mi_two_text_view_text">Aenean ultricies mi vitae est. Mauris placerat\neleifend leo.</string>
+	<string name="go_premium_plan_choosed_activity_btn_cta_green_button_text">Get premium</string>
+	<string name="go_premium_plan_choosed_activity_pellentesque_habitan_text_view_text">Pellentesque habitant morbi</string>
+	<string name="go_premium_plan_choosed_activity_consectetuer_adipisc_text_view_hint">Consectetuer adipiscing</string>
+	<string name="go_premium_plan_choosed_activity_questions_read_the_button_text">Questions? Read the FAQ</string>
+	<string name="go_premium_plan_choosed_activity_yr_text_view_text">$4.55/yr</string>
+	<string name="go_premium_plan_choosed_activity_bachelor_plan_text_view_text">Bachelor Plan</string>
+	<string name="go_premium_plan_choosed_activity_annual_text_view_hint">annual</string>
+	
+	<!-- Resources for Onboarding4Activity -->
+	<string name="onboarding4_activity_skip_this_step_button_text">Skip this step</string>
+	<string name="onboarding4_activity_get_started_button_text">Let’s get started</string>
+	<string name="onboarding4_activity_plan_ahead_your_expe_text_view_hint">Plan ahead your expenses\nand gain total control</string>
+	<string name="onboarding4_activity_get_started_button_hint">Let’s get started</string>
+	<string name="onboarding4_activity_plan_ahead_your_expe_text_view_text">Plan ahead your expenses\nand gain total control</string>
+	<string name="onboarding4_activity_skip_this_step_button_hint">Skip this step</string>
+	
+	<!-- Resources for GoPremiumChoosingPlanActivity -->
+	<string name="go_premium_choosing_plan_activity_ut_enim_ad_minim_ven_two_text_view_hint">Ut enim ad minim veniam, quis nostrud\nexercitation ultrices nulla quis nibh.</string>
+	<string name="go_premium_choosing_plan_activity_months399_text_view_text">12 months - $3.99  </string>
+	<string name="go_premium_choosing_plan_activity_upgrade_to_premium_text_view_hint">Upgrade to Premium</string>
+	<string name="go_premium_choosing_plan_activity_bachelor_text_view_text">bachelor</string>
+	<string name="go_premium_choosing_plan_activity_go_premium_button_text">Continue</string>
+	<string name="go_premium_choosing_plan_activity_months499_text_view_hint">6 months - $4.99  </string>
+	<string name="go_premium_choosing_plan_activity_cancel_button_text">Cancel</string>
+	<string name="go_premium_choosing_plan_activity_ut_enim_ad_minim_ven_two_text_view_text">Ut enim ad minim veniam, quis nostrud\nexercitation ultrices nulla quis nibh.</string>
+	<string name="go_premium_choosing_plan_activity_cance_any_time_in_ap_text_view_hint">Cance any time in AppleStore</string>
+	<string name="go_premium_choosing_plan_activity_month699_text_view_text">1 month - $6.99  </string>
+	<string name="go_premium_choosing_plan_activity_married_text_view_text">married</string>
+	<string name="go_premium_choosing_plan_activity_go_premium_button_hint">Continue</string>
+	<string name="go_premium_choosing_plan_activity_married_with_childre_text_view_text">married with children</string>
+	<string name="go_premium_choosing_plan_activity_ut_enim_ad_minim_ven_text_view_text">Ut enim ad minim veniam, quis nostrud\nexercitation ultrices nulla quis nibh.</string>
+	<string name="go_premium_choosing_plan_activity_month699_text_view_hint">1 month - $6.99  </string>
+	<string name="go_premium_choosing_plan_activity_ut_enim_ad_minim_ven_three_text_view_hint">Ut enim ad minim veniam, quis nostrud\nexercitation ultrices nulla quis nibh.</string>
+	<string name="go_premium_choosing_plan_activity_ut_enim_ad_minim_ven_three_text_view_text">Ut enim ad minim veniam, quis nostrud\nexercitation ultrices nulla quis nibh.</string>
+	<string name="go_premium_choosing_plan_activity_upgrade_to_premium_text_view_text">Upgrade to Premium</string>
+	<string name="go_premium_choosing_plan_activity_married_with_childre_text_view_hint">married with children</string>
+	<string name="go_premium_choosing_plan_activity_ut_enim_ad_minim_ven_text_view_hint">Ut enim ad minim veniam, quis nostrud\nexercitation ultrices nulla quis nibh.</string>
+	<string name="go_premium_choosing_plan_activity_cance_any_time_in_ap_text_view_text">Cance any time in AppleStore</string>
+	<string name="go_premium_choosing_plan_activity_cancel_button_hint">Cancel</string>
+	<string name="go_premium_choosing_plan_activity_married_text_view_hint">married</string>
+	<string name="go_premium_choosing_plan_activity_months499_text_view_text">6 months - $4.99  </string>
+	<string name="go_premium_choosing_plan_activity_bachelor_text_view_hint">bachelor</string>
+	<string name="go_premium_choosing_plan_activity_months399_text_view_hint">12 months - $3.99  </string>
+	
+	<!-- Resources for MoreAboutYouActivity -->
+	<string name="more_about_you_activity_upload_your_profile_text_view_hint">Upload your profile picture</string>
+	<string name="more_about_you_activity_upload_your_profile_text_view_text">Upload your profile picture</string>
+	<string name="more_about_you_activity_maybe_later_button_text">Maybe later</string>
+	<string name="more_about_you_activity_maybe_later_button_hint">Maybe later</string>
+	<string name="more_about_you_activity_more_about_you_text_view_hint">More about you</string>
+	<string name="more_about_you_activity_continue_button_text">Continue</string>
+	<string name="more_about_you_activity_btw_you_look_great_text_view_text">Btw, you look great :)</string>
+	<string name="more_about_you_activity_more_about_you_text_view_text">More about you</string>
+	<string name="more_about_you_activity_btw_you_look_great_text_view_hint">Btw, you look great :)</string>
+	<string name="more_about_you_activity_continue_button_hint">Continue</string>
+	
+	<!-- Resources for MobileNumber1Activity -->
+	<string name="mobile_number1_activity_mobile_number_edit_text_hint">Mobile number</string>
+	<string name="mobile_number1_activity_continue_button_hint">Continue</string>
+	<string name="mobile_number1_activity_let_sget_started_text_view_text">Let\'s get started</string>
+	<string name="mobile_number1_activity_continue_button_text">Continue</string>
+	<string name="mobile_number1_activity_what_is_your_mobile_text_view_text">What is your mobile number?</string>
+	<string name="mobile_number1_activity_let_sget_started_text_view_hint">Let\'s get started</string>
+	<string name="mobile_number1_activity_what_is_your_mobile_text_view_hint">What is your mobile number?</string>
+	
+	<!-- Resources for MobileNumber2Activity -->
+	<string name="mobile_number2_activity_text_view_text_view_text">1</string>
+	<string name="mobile_number2_activity_let_sget_started_text_view_text">Let\'s get started</string>
+	<string name="mobile_number2_activity_mobile_number_edit_text_hint">Mobile number</string>
+	<string name="mobile_number2_activity_text_view_two_text_view_text">+1</string>
+	<string name="mobile_number2_activity_text_view_text_view_hint">1</string>
+	<string name="mobile_number2_activity_text_view_two_text_view_hint">+1</string>
+	<string name="mobile_number2_activity_let_sget_started_text_view_hint">Let\'s get started</string>
+	<string name="mobile_number2_activity_what_is_your_mobile_text_view_hint">What is your mobile number?</string>
+	<string name="mobile_number2_activity_what_is_your_mobile_text_view_text">What is your mobile number?</string>
+	
+	<!-- Resources for AddAccountActivity -->
+	<string name="add_account_activity_continue_button_text">Continue</string>
+	<string name="add_account_activity_setup_acurrent_ball_text_view_hint">Setup a current ballance and get total\ncontrol by manually adding transactions.</string>
+	<string name="add_account_activity_automatically_import_text_view_hint">Automatically import cleared transactions\nfrom your personal bank account.</string>
+	<string name="add_account_activity_manual_account_text_view_hint">Manual account</string>
+	<string name="add_account_activity_bank_account_text_view_hint">Bank account</string>
+	<string name="add_account_activity_cancel_text_view_text">Cancel</string>
+	<string name="add_account_activity_add_account_text_view_hint">Add account</string>
+	<string name="add_account_activity_continue_button_hint">Continue</string>
+	<string name="add_account_activity_bank_account_text_view_text">Bank account</string>
+	<string name="add_account_activity_add_account_text_view_text">Add account</string>
+	<string name="add_account_activity_automatically_import_text_view_text">Automatically import cleared transactions\nfrom your personal bank account.</string>
+	<string name="add_account_activity_cancel_text_view_hint">Cancel</string>
+	<string name="add_account_activity_setup_acurrent_ball_text_view_text">Setup a current ballance and get total\ncontrol by manually adding transactions.</string>
+	<string name="add_account_activity_manual_account_text_view_text">Manual account</string>
+	
+	<!-- Resources for Onboarding6Activity -->
+	<string name="onboarding6_activity_b_text_view_hint">B</string>
+	<string name="onboarding6_activity_plan_ahead_your_expe_text_view_text">Plan ahead your expenses\nand gain total control</string>
+	<string name="onboarding6_activity_b_text_view_text">B</string>
+	<string name="onboarding6_activity_get_started_button_text">Get started</string>
+	<string name="onboarding6_activity_get_started_button_hint">Get started</string>
+	<string name="onboarding6_activity_plan_ahead_your_expe_text_view_hint">Plan ahead your expenses\nand gain total control</string>
+	
+	<!-- Resources for OneLastThingActivity -->
+	<string name="one_last_thing_activity_agree_button_text">Agree</string>
+	<string name="one_last_thing_activity_agree_button_hint">Agree</string>
+	<string name="one_last_thing_activity_decline_copy_button_text">Decline</string>
+	<string name="one_last_thing_activity_one_last_thing_text_view_hint">One last thing</string>
+	<string name="one_last_thing_activity_lorem_ipsum_dolor_si_text_view_hint">Lorem ipsum dolor sit amet, consectetur adipiscing\nelit, sed do eiusmod tempor incididunt ut labore et\ndolore magna aliqua. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut\naliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur.\nExcepteur sint occaecat cupidatat non proident,\nsunt in culpa qui officia deserunt mollit anim id\nest laborum.\n\nPellentesque habitant morbi tristique senectus et\nnetus et malesuada fames ac turpis egestas ipsum.\nVestibulum tortor quam, feugiat vitae, ultricies eget,\ntempor sit amet, ante eu libero sit amet quam.\n\nAenean ultricies mi vitae est. Mauris placerat\neleifend leo. Quisque sit est et sapien ullamcorper.</string>
+	<string name="one_last_thing_activity_terms_of_service_text_view_hint">Terms of service</string>
+	<string name="one_last_thing_activity_decline_copy_button_hint">Decline</string>
+	<string name="one_last_thing_activity_lorem_ipsum_dolor_si_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing\nelit, sed do eiusmod tempor incididunt ut labore et\ndolore magna aliqua. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut\naliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur.\nExcepteur sint occaecat cupidatat non proident,\nsunt in culpa qui officia deserunt mollit anim id\nest laborum.\n\nPellentesque habitant morbi tristique senectus et\nnetus et malesuada fames ac turpis egestas ipsum.\nVestibulum tortor quam, feugiat vitae, ultricies eget,\ntempor sit amet, ante eu libero sit amet quam.\n\nAenean ultricies mi vitae est. Mauris placerat\neleifend leo. Quisque sit est et sapien ullamcorper.</string>
+	<string name="one_last_thing_activity_terms_of_service_text_view_text">Terms of service</string>
+	<string name="one_last_thing_activity_one_last_thing_text_view_text">One last thing</string>
+	
+	<!-- Resources for Onboarding5Activity -->
+	<string name="onboarding5_activity_get_the_life_you_wan_text_view_text">Get the life you want!\nSave more money.</string>
+	<string name="onboarding5_activity_login_button_hint">Continue with facebook</string>
+	<string name="onboarding5_activity_sign_up_copy_button_hint">Login</string>
+	<string name="onboarding5_activity_get_the_life_you_wan_text_view_hint">Get the life you want!\nSave more money.</string>
+	<string name="onboarding5_activity_login_button_text">Continue with facebook</string>
+	<string name="onboarding5_activity_sign_up_button_text">Create free account</string>
+	<string name="onboarding5_activity_already_have_an_acco_button_hint">Already have an account?</string>
+	<string name="onboarding5_activity_already_have_an_acco_button_text">Already have an account?</string>
+	<string name="onboarding5_activity_sign_up_button_hint">Create free account</string>
+	<string name="onboarding5_activity_sign_up_copy_button_text">Login</string>
+	
+	<!-- Resources for LoginPasscodeActivity -->
+	<string name="login_passcode_activity_unlocking_with_passc_text_view_hint">Unlocking with passcode</string>
+	<string name="login_passcode_activity_budget_planner_text_view_hint">Budget Planner</string>
+	<string name="login_passcode_activity_budget_planner_text_view_text">Budget Planner</string>
+	<string name="login_passcode_activity_use_your_fingerprint_text_view_text">Use your fingerprint</string>
+	<string name="login_passcode_activity_use_your_fingerprint_text_view_hint">Use your fingerprint</string>
+	<string name="login_passcode_activity_unlocking_with_passc_text_view_text">Unlocking with passcode</string>
+	
+	<!-- Resources for Onboarding1Activity -->
+	<string name="onboarding1_activity_let_sget_started_text_view_text">Let’s get started</string>
+	<string name="onboarding1_activity_take_control_of_your_text_view_hint">Take control of your money \nby tracking your expenses, adding goals</string>
+	<string name="onboarding1_activity_let_sget_started_text_view_hint">Let’s get started</string>
+	<string name="onboarding1_activity_next_button_hint">Next</string>
+	<string name="onboarding1_activity_next_button_text">Next</string>
+	<string name="onboarding1_activity_take_control_of_your_text_view_text">Take control of your money \nby tracking your expenses, adding goals</string>
+</resources>

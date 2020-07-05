@@ -1,0 +1,130 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.ronnystudio">
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+	
+		<activity
+			android:label=""
+			android:name=".activity.GoPremiumPlanChoosedActivity"
+			android:theme="@style/GoPremiumPlanChoosedActivityTheme">
+		
+			<intent-filter>
+			
+				<category android:name="android.intent.category.LAUNCHER"/>
+			
+				<action android:name="android.intent.action.MAIN"/>
+			</intent-filter>
+		</activity>
+	
+		<activity
+			android:label=""
+			android:name=".activity.Onboarding4Activity"
+			android:theme="@style/Onboarding4ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.Onboarding3Activity"
+			android:theme="@style/Onboarding3ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.NoAccountActivity"
+			android:theme="@style/NoAccountActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.Onboarding5Activity"
+			android:theme="@style/Onboarding5ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.AddAccountActivity"
+			android:theme="@style/AddAccountActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.OneLastThingActivity"
+			android:theme="@style/OneLastThingActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.Onboarding1Activity"
+			android:theme="@style/Onboarding1ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.LoginPasscodeActivity"
+			android:theme="@style/LoginPasscodeActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.MoreAboutYouCopyActivity"
+			android:theme="@style/MoreAboutYouCopyActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.MoreAboutYouActivity"
+			android:theme="@style/MoreAboutYouActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.GoPremiumChoosingPlanActivity"
+			android:theme="@style/GoPremiumChoosingPlanActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.MobileNumber1Activity"
+			android:theme="@style/MobileNumber1ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.AddManualAccountActivity"
+			android:theme="@style/AddManualAccountActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.SuccessfullAddedActivity"
+			android:theme="@style/SuccessfullAddedActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.MobileNumber2Activity"
+			android:theme="@style/MobileNumber2ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.Onboarding2Activity"
+			android:theme="@style/Onboarding2ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.CreatePasscodeActivity"
+			android:theme="@style/CreatePasscodeActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.AddManualAccountCompletedActivity"
+			android:theme="@style/AddManualAccountCompletedActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.MobileNumber3Activity"
+			android:theme="@style/MobileNumber3ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.Onboarding6Activity"
+			android:theme="@style/Onboarding6ActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.VerificationCodeActivity"
+			android:theme="@style/VerificationCodeActivityTheme"/>
+	</application>
+</manifest>

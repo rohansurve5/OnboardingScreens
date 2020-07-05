@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="@dimen/add_account_activity_add_abank_account_constraint_layout_radius"/>
+
+    <gradient
+        android:angle="0"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="@color/add_manual_account_completed_activity_add_account_button_gradient_stop_color_2"
+        android:startColor="@color/add_manual_account_completed_activity_add_account_button_gradient_stop_color_1"/>
+</shape>

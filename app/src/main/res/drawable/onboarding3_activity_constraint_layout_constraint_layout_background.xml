@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<gradient
+		android:angle="0"
+		android:centerX="0.52"
+		android:centerY="0.5"
+		android:endColor="@color/onboarding3_activity_constraint_layout_constraint_layout_gradient_stop_color_2"
+		android:startColor="@color/onboarding3_activity_constraint_layout_constraint_layout_gradient_stop_color_1"/>
+</shape>

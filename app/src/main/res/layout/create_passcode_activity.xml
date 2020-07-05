@@ -1,0 +1,183 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/create_passcode_activity_constraint_layout_constraint_layout_background_color">
+
+    <View
+        android:id="@+id/fond_huge_radius_fconstraint_layout"
+        android:layout_width="@dimen/create_passcode_activity_fond_huge_radius_fconstraint_layout_width"
+        android:layout_height="@dimen/create_passcode_activity_fond_huge_radius_fconstraint_layout_height"
+        android:layout_marginStart="@dimen/create_passcode_activity_fond_huge_radius_fconstraint_layout_margin_start"
+        android:layout_marginTop="@dimen/create_passcode_activity_fond_huge_radius_fconstraint_layout_margin_top"
+        app:layout_constraintLeft_toRightOf="@+id/fond_greengrad_med_constraint_layout"
+        app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <EditText
+        android:id="@+id/edit_text_edit_text"
+        android:layout_width="@dimen/create_passcode_activity_edit_text_edit_text_width"
+        android:layout_height="@dimen/create_passcode_activity_edit_text_edit_text_height"
+        android:layout_marginStart="@dimen/create_passcode_activity_edit_text_edit_text_margin_start"
+        android:layout_marginTop="@dimen/create_passcode_activity_edit_text_edit_text_margin_top"
+        android:background="@color/create_passcode_activity_edit_text_edit_text_background_color"
+        android:fontFamily="@font/font_karla_regular"
+        android:gravity="center|center_vertical"
+        android:hint="@string/create_passcode_activity_edit_text_edit_text_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/color_hint_text"
+        android:textSize="@dimen/create_passcode_activity_edit_text_edit_text_text_size"
+        app:layout_constraintLeft_toRightOf="@+id/fond_greengrad_med_constraint_layout"
+        app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <View
+        android:id="@+id/fond_greengrad_med_constraint_layout"
+        android:layout_width="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_width"
+        android:layout_height="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_height"
+        android:layout_marginStart="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_margin_start"
+        android:layout_marginTop="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <EditText
+        android:id="@+id/edit_text_two_edit_text"
+        android:layout_width="@dimen/create_passcode_activity_edit_text_two_edit_text_width"
+        android:layout_height="@dimen/create_passcode_activity_edit_text_two_edit_text_height"
+        android:layout_marginStart="@dimen/create_passcode_activity_edit_text_two_edit_text_margin_start"
+        android:layout_marginTop="@dimen/create_passcode_activity_edit_text_two_edit_text_margin_top"
+        android:background="@color/create_passcode_activity_edit_text_two_edit_text_background_color"
+        android:fontFamily="@font/font_karla_regular"
+        android:gravity="center|center_vertical"
+        android:hint="@string/create_passcode_activity_edit_text_two_edit_text_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/color_hint_text"
+        android:textSize="@dimen/create_passcode_activity_edit_text_two_edit_text_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <View
+
+        android:id="@+id/view_three"
+        android:layout_width="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_width"
+        android:layout_height="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_height"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintLeft_toLeftOf="@+id/fond_greengrad_med_constraint_layout"
+        app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view" />
+
+    <EditText
+
+        android:id="@+id/ev_three"
+        android:layout_width="@dimen/create_passcode_activity_edit_text_two_edit_text_width"
+        android:layout_height="@dimen/create_passcode_activity_edit_text_two_edit_text_height"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/create_passcode_activity_edit_text_two_edit_text_background_color"
+        android:fontFamily="@font/font_karla_regular"
+        android:gravity="center|center_vertical"
+        android:hint="@string/create_passcode_activity_edit_text_two_edit_text_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/color_hint_text"
+        android:textSize="@dimen/create_passcode_activity_edit_text_two_edit_text_text_size"
+        app:layout_constraintLeft_toLeftOf="@+id/edit_text_two_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view" />
+
+	<View
+
+		android:id="@+id/view_four"
+		android:layout_width="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_width"
+		android:layout_height="@dimen/create_passcode_activity_fond_greengrad_med_constraint_layout_height"
+		android:layout_marginLeft="236dp"
+		android:layout_marginTop="44dp"
+		app:layout_constraintLeft_toLeftOf="@+id/fond_greengrad_med_constraint_layout"
+		app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view" />
+
+	<EditText
+
+		android:id="@+id/ev_four"
+		android:layout_width="@dimen/create_passcode_activity_edit_text_two_edit_text_width"
+		android:layout_height="@dimen/create_passcode_activity_edit_text_two_edit_text_height"
+		android:layout_marginLeft="236dp"
+		android:layout_marginTop="64dp"
+		android:background="@color/create_passcode_activity_edit_text_two_edit_text_background_color"
+		android:fontFamily="@font/font_karla_regular"
+		android:gravity="center|center_vertical"
+		android:hint="@string/create_passcode_activity_edit_text_two_edit_text_hint"
+		android:inputType="text"
+		android:maxLines="1"
+		android:textColor="#FFFFFF"
+		android:textColorHint="@color/color_hint_text"
+		android:textSize="@dimen/create_passcode_activity_edit_text_two_edit_text_text_size"
+		app:layout_constraintLeft_toLeftOf="@+id/edit_text_two_edit_text"
+		app:layout_constraintTop_toBottomOf="@+id/enter_your_otp_code_text_view" />
+
+	<TextView
+        android:id="@+id/enter_your_otp_code_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/create_passcode_activity_enter_your_otp_code_text_view_margin_start"
+        android:layout_marginTop="@dimen/create_passcode_activity_enter_your_otp_code_text_view_margin_top"
+        android:fontFamily="@font/font_karla_regular"
+        android:gravity="start"
+        android:text="@string/create_passcode_activity_enter_your_otp_code_text_view_text"
+        android:textColor="#1C1C1C"
+        android:textSize="@dimen/create_passcode_activity_enter_your_otp_code_text_view_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header_constraint_layout"
+        android:layout_width="@dimen/create_passcode_activity_header_constraint_layout_width"
+        android:layout_height="@dimen/create_passcode_activity_header_constraint_layout_height"
+        android:layout_marginStart="@dimen/create_passcode_activity_header_constraint_layout_margin_start"
+        android:layout_marginTop="@dimen/create_passcode_activity_header_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="48dp">
+
+        <TextView
+            android:id="@+id/create_passcode_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_karla_bold"
+            android:gravity="start"
+            android:text="@string/create_passcode_activity_create_passcode_text_view_text"
+            android:textColor="#1C1C1C"
+            android:textSize="@dimen/create_passcode_activity_create_passcode_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/graphics_back_arrow_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/graphics_back_arrow"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

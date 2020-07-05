@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/mobile_number2_activity_mobile_number_comple_constraint_layout_border_color"
+		android:width="@dimen/mobile_number2_activity_mobile_number_comple_constraint_layout_border_size"/>
+
+	<corners android:radius="@dimen/mobile_number2_activity_mobile_number_comple_constraint_layout_radius"/>
+
+	<solid android:color="#FFFFFF"/>
+</shape>

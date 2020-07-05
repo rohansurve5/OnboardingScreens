@@ -1,0 +1,75 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- GoPremiumPlanChoosedActivity -->
+	<style name="GoPremiumPlanChoosedActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Onboarding4Activity -->
+	<style name="Onboarding4ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Onboarding3Activity -->
+	<style name="Onboarding3ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- NoAccountActivity -->
+	<style name="NoAccountActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Onboarding5Activity -->
+	<style name="Onboarding5ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- AddAccountActivity -->
+	<style name="AddAccountActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- OneLastThingActivity -->
+	<style name="OneLastThingActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Onboarding1Activity -->
+	<style name="Onboarding1ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- LoginPasscodeActivity -->
+	<style name="LoginPasscodeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- MoreAboutYouCopyActivity -->
+	<style name="MoreAboutYouCopyActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- MoreAboutYouActivity -->
+	<style name="MoreAboutYouActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- GoPremiumChoosingPlanActivity -->
+	<style name="GoPremiumChoosingPlanActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- MobileNumber1Activity -->
+	<style name="MobileNumber1ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- AddManualAccountActivity -->
+	<style name="AddManualAccountActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SuccessfullAddedActivity -->
+	<style name="SuccessfullAddedActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- MobileNumber2Activity -->
+	<style name="MobileNumber2ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Onboarding2Activity -->
+	<style name="Onboarding2ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- CreatePasscodeActivity -->
+	<style name="CreatePasscodeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- AddManualAccountCompletedActivity -->
+	<style name="AddManualAccountCompletedActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- MobileNumber3Activity -->
+	<style name="MobileNumber3ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Onboarding6Activity -->
+	<style name="Onboarding6ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- VerificationCodeActivity -->
+	<style name="VerificationCodeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>
